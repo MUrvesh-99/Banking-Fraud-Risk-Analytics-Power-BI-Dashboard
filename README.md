@@ -32,6 +32,12 @@ The dashboard follows a star-schema model with optimized DAX measures and a UI/U
 
 ## 🧱 Data Model (Star Schema)
 
+## Star Schema Preview
+<p align="center">
+  <img src="https://github.com/MUrvesh-99/Banking-Fraud-Risk-Analytics-Power-BI-Dashboard/blob/main/5.jpg"
+       alt="AdventureWorks Power BI — Overview" width="900">
+</p>
+
 **Fact Table: `Transactions`**  
 - Transaction_ID  
 - Date, Time, TxnHour, PartOfDay  
@@ -122,7 +128,7 @@ The dashboard follows a star-schema model with optimized DAX measures and a UI/U
 - Customer Risk Score table  
 - Fraud % by Age Group heatmap  
 - Merchant category risk ranking  
-- Dynamic risk insights (auto-generated text)
+
 
 ### **Risk Score Model (0–100 Index)**
 Based on:
@@ -156,8 +162,6 @@ Based on:
 ### **Key Visuals**
 - State-level fraud map  
 - Branch fraud matrix (State → City → Branch)  
-- Branch vs Fraud % bar chart  
-- Branch vs Total Txns bar chart  
 - Dynamic geo insights
 
 ### **Insights**
